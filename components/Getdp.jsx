@@ -113,7 +113,7 @@ export default function Getdp() {
     };
 
     const drawConfirmedBadge = () => {
-      const text = 'CONFIRMED';
+      const text = 'ATTENDING';
       const paddingX = 10;
       const font = 'bold 26px "Montserrat", sans-serif';
       ctx.save();
