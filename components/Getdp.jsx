@@ -7,10 +7,6 @@ import { Facebook, Send, Youtube } from 'lucide-react';
 import ImageUpload from '@/components/ImageUpload';
 
 const FLIER_ASSET = '/assets/RFC-SRN-Event-NEW.jpg';
-const NAV_LINKS = [
-  // { label: 'Spiritlife Home', href: 'https://spiritlifecns.com/' },
-  // { label: 'Events', href: 'https://spiritlifecns.com/' }
-];
 const SOCIAL_LINKS = [
   { href: 'https://www.facebook.com/share/1K8UsKUAD3/?mibextid=wwXIfr', icon: Facebook, label: 'Facebook' },
   { href: 'https://www.youtube.com/@SoundofRevivalNetwork', icon: Youtube, label: 'YouTube' },
@@ -119,7 +115,6 @@ export default function Getdp() {
     const drawConfirmedBadge = () => {
       const text = 'CONFIRMED';
       const paddingX = 10;
-      const paddingY = 10;
       const font = 'bold 26px "Montserrat", sans-serif';
       ctx.save();
       ctx.font = font;
